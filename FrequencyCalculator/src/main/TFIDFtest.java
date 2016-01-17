@@ -1,6 +1,7 @@
 package main;
 import FrequencyCalculator.TFIDF;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Map;
 
@@ -122,8 +123,7 @@ public class TFIDFtest {
 
 
         Map<String, Double> result = TFIDF.getTFIDFforDoc(Collections.singletonList(s) );
-        System.out.print(result);
-
+        System.out.print(result + "\n");
     }
 }
 
